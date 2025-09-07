@@ -18,8 +18,8 @@ Bu proje basit bir blog uygulamasıdır. Kullanıcılar kayıt olabilir, giriş 
 ## Kurulum
 1. Depoyu klonlayın:
    ```bash
-   git clone https://github.com/kullaniciadi/proje-adi.git
-   cd proje-adi
+   git clone https://github.com/ErenSezer99/simple-blog.git
+   cd simple-blog
 
 2. Gerekli bağımlılıkları yükleyin:
    ```bash
