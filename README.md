@@ -22,19 +22,25 @@ Bu proje basit bir blog uygulamasıdır. Kullanıcılar kayıt olabilir, giriş 
    cd proje-adi
 
 2. Gerekli bağımlılıkları yükleyin:
+   ```bash
    composer install
    npm install && npm run build
 
 3. .env dosyasını oluşturun:
+   ```bash
    cp .env.example .env
 
 4. Veritabanını ayarlayın (SQLite):
+   ```bash
    touch database/database.sqlite
    php artisan migrate --seed
 
 5. Sunucuyu başlatın:
+   ```bash
    php artisan serve
 
 6. Uygulamaya tarayıcıdan erişin:
+   ```bash
    http://localhost:8000
+   
    
